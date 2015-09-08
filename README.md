@@ -8,7 +8,7 @@ Usage:
 
 =====
 
-Ext.ux.TouchActivityMonitor.init({ verbose : true });
+Ext.ux.TouchActivityMonitor.init({ verbose : true, maxInactive: 120000 });
 Ext.ux.TouchActivityMonitor.start();
 
 =====
